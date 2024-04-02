@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    background-color: #8A51FC;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: 30px auto;
+
+}
+
+.main {
+    width: 375px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+.converter-de {
+    width: 327px;
+    height: 50px;
+    top: 44px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.converter-para {
+    width: 327px;
+    height: 50px;
+    top: 140px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.placeholder {
+    width: 327px;
+    height: 50px;
+    top: 236px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    display: block;
+
+}
+
+.convert-button {
+    Width: 327px;
+    Height: 48px;
+    Top: 329px;
+    Left: 24px;
+    border-radius: 25px;
+    background: #772FD3;
+    color: white;
+    cursor: pointer;
+
+}
+
+.button-convert:hover {
+    opacity: .8;
+}
+
+.button-convert:active {
+    opacity: .6;
+}
+
+.caixa-img {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.layout {
+    width: 100px;
+    height: 100px;
+    top: 220px;
+    left: 100px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+
+.currency {
+    font-size: 14px;
+    color: #777777;
+
+}
+
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.currency-value, .currency-value-to-convert {
+    font-weight: 700px;
+    font-size: 20px;
+    color: #555555;
+
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
